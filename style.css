@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif  ;
+    text-align: center;
+    color: white;
+}
+h3{
+    display: inline-block;
+
+}
+#h31{
+    margin-right:30% ;
+}
+
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#board{
+    width: 450px;
+    height: 450px ;
+    /*background-color: rgb(29, 60, 50);*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    width: 48px;
+    height: 48px;
+    border: solid 1px black;
+
+        /*Text */
+    font-size: 20px;
+    font-weight: solid ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border:solid 1px white ;
+}
+.number{
+    width: 44px;
+    height: 44px;
+    border: solid 1px black;
+
+        /*Text */
+    font-size: 20px;
+    font-weight: solid ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border:solid 1px white ;
+}
+
+
+
+
+
+#digit {
+    width: 450px;
+    height: 50px;
+    /*background-color: rgb(20, 90, 103);*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+iframe{
+    border: 0px;
+}
+a{
+    margin: 10px;
+}
+
+#ret{
+    margin-right: 70%;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: black;
+    color: white;
+    border: solid 2px white ;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+#esay,#medium,#hard{
+    font-size: 20px;
+}
+button:hover{
+    scale: 1.1;
+    transition-duration: 0.2s;
+    
+}
+#esay:hover{
+    box-shadow: 0px 0px 20px rgb(156, 138, 138);
+}
+#hard:hover{
+    box-shadow: 0px 0px 20px rgb(177, 34, 34);
+}
+#medium:hover{
+    box-shadow: 0px 0px 20px rgb(153, 113, 40);
+}
+
+.number:hover {
+    background-color: rgb(38, 36, 36);
+}
+.number-selected{
+    background-color: gray;
+}
+.tile-event{
+    background-color:rgb(44, 40, 40);
+}
+
+.v-l{
+    border-right:3px  solid white ;
+}
+
+.h-l{
+    border-bottom: 3px  solid white  ;
+}
+
+.ff{
+    color: red;
+}
+.lose{
+    color: aquamarine;
+}
